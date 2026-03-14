@@ -1,0 +1,14 @@
+{
+  "name": "indexorderflow-server",
+  "version": "1.0.0",
+  "description": "Backend server for IndexOrderFlow. Provides a WebSocket endpoint streaming order‑flow data.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "echo 'no build step for server'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
